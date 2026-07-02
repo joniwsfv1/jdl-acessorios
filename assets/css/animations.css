@@ -1,0 +1,121 @@
+/*=============================
+    ANIMAÇÕES
+=============================*/
+
+.banner-texto{
+
+    animation: subir 1s ease;
+
+}
+
+.banner-imagem{
+
+    animation: aparecer 1.2s ease;
+
+}
+
+.card{
+
+    opacity:0;
+
+    transform:translateY(60px);
+
+    transition:.8s;
+
+}
+
+.card.aparecer{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+.voltar-topo{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:30px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#d8a1a4;
+
+    color:#000;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:.4s;
+
+    z-index:999;
+
+}
+
+.voltar-topo.mostrar{
+
+    opacity:1;
+
+    visibility:visible;
+
+}
+
+.voltar-topo:hover{
+
+    transform:translateY(-5px);
+
+}
+
+@keyframes subir{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(60px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+@keyframes aparecer{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}

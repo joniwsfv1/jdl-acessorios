@@ -1,0 +1,234 @@
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width:1024px){
+
+header{
+
+    padding:0 25px;
+
+}
+
+.logo h1{
+
+    font-size:48px;
+
+}
+
+.banner{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:60px 30px;
+
+}
+
+.banner-texto{
+
+    width:100%;
+
+}
+
+.banner-imagem{
+
+    width:100%;
+
+    height:500px;
+
+}
+
+.banner-texto h2{
+
+    font-size:58px;
+
+}
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.newsletter{
+
+    flex-direction:column;
+
+    gap:35px;
+
+    text-align:center;
+
+}
+
+.newsletter form{
+
+    width:100%;
+
+    justify-content:center;
+
+}
+
+.newsletter input{
+
+    width:60%;
+
+}
+
+}
+
+
+/* ==========================
+   CELULARES
+========================== */
+
+@media (max-width:768px){
+
+.top-bar{
+
+    font-size:11px;
+
+    letter-spacing:1px;
+
+    padding:0 10px;
+
+    text-align:center;
+
+}
+
+header{
+
+    height:75px;
+
+    padding:0 15px;
+
+}
+
+.logo h1{
+
+    font-size:30px;
+
+}
+
+.menu-btn{
+
+    font-size:25px;
+
+}
+
+.header-icons{
+
+    gap:15px;
+
+}
+
+.header-icons i{
+
+    font-size:20px;
+
+}
+
+.banner{
+
+    padding:35px 20px;
+
+}
+
+.banner-texto h2{
+
+    font-size:42px;
+
+}
+
+.banner-texto span{
+
+    font-size:14px;
+
+}
+
+.banner-imagem{
+
+    height:350px;
+
+}
+
+.btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.categorias{
+
+    padding:60px 20px;
+
+}
+
+.categorias h2{
+
+    font-size:42px;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.card .imagem{
+
+    height:320px;
+
+}
+
+.newsletter{
+
+    padding:60px 20px;
+
+}
+
+.newsletter form{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.newsletter input{
+
+    width:100%;
+
+}
+
+.newsletter button{
+
+    width:100%;
+
+    height:55px;
+
+}
+
+footer{
+
+    padding:50px 20px;
+
+}
+
+.redes{
+
+    justify-content:center;
+
+}
+
+.copy{
+
+    font-size:13px;
+
+}
+
+}
